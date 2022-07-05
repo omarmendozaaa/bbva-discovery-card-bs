@@ -48,7 +48,6 @@ export class BbvaDiscoveryCardBs extends LitElement {
   // Define a template
   render() {
     return html`
-    <br>
     <div class="mb-3">
     <div class="card-body">
         <div class="row g-0">
