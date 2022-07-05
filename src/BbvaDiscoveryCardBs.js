@@ -49,13 +49,13 @@ export class BbvaDiscoveryCardBs extends LitElement {
   render() {
     return html`
     <br>
-    <div class="mb-3" style="max-width: 800px;">
+    <div class="mb-3">
     <div class="card-body">
         <div class="row g-0">
-          <div class="col-md-2 text-center">
+          <div class="col-md-2 text-center align-self-center">
             <img src="${this.base_url}${this.discovery.poster_path}" class="img-fluid rounded" style="width: 90%" alt="${this.discovery.title}" />
           </div>
-          <div class="col-md-8">
+          <div class="col-md-10">
             <div class="card-body">
               <h5 class="card-title">${this.discovery.title}</h5>
               <p class="card-text">
