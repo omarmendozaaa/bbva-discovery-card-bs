@@ -1,0 +1,1 @@
+export { BbvaDiscoveryCardBs } from './src/BbvaDiscoveryCardBs.js';
